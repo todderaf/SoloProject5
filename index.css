@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: #FFFFFF;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    user-select: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+    align-items: center;
+}
+
+#freddie-img {
+    width: 90px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+textarea {
+    background: #444059;
+    color:  #8F8F8F;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    resize: none;
+}
+
+#publish-btn {
+    background: #28A9F1;
+    color: #04131C;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    width: 320px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+#endorsements {
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #FFFFFF;
+    color: #1B1924;
+    font-family:  'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 2px;
+    flex-grow: 1;
+    text-align: left;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
